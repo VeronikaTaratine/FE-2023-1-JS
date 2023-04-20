@@ -10,9 +10,11 @@ const deletedNumbers4=numbers2.shift();
 
 
 const numbers5=[1,2,3,4,5];
-const resalt= numbers5.splice(-4,2);
+const result= numbers5.splice(-4,2);
 
-const number6=[1,2,3,4,5];
-const resalt1=number6.splice(-2,1,'a','b','c');
+const numbers6=[1,2,3,4,5];
+const result1=numbers6.splice(-2,1,'a','b','c');
 
-const number7=[1,2,3,4,5];
+const numbers7=[1,2,3,4,5];
+const result2=numbers7.splice(1,4,'a','b',2, 3, 4, 'c', 5, 'e');
+
